@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewRecipeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:layout_margin="2dp"
+        android:hint="@string/enter_recipe_title"
+        android:textSize="@dimen/label_text_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cooking_method_label"
+            android:textSize="@dimen/label_text_size"/>
+        <TextView
+            android:id="@+id/methodSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/typical_text_size"
+            android:hint="@string/select_cooking_method"
+            android:background="@drawable/rounded_selection_box"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preptime_label"
+            android:textSize="@dimen/label_text_size" />
+
+        <TextView
+            android:id="@+id/textViewPrepHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/typical_text_size"/>
+
+        <TextView
+            android:id="@+id/textViewPrepMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/minutes"
+            android:textSize="@dimen/typical_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cooktime_label"
+            android:textSize="@dimen/label_text_size"
+            android:layout_marginStart="6dp" />
+
+        <TextView
+            android:id="@+id/textViewCookHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hours"
+            android:textSize="@dimen/typical_text_size"/>
+        <TextView
+            android:id="@+id/textViewCookMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/minutes"
+            android:textSize="@dimen/typical_text_size"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/ingredients_label"
+        android:textSize="@dimen/label_text_size"
+        android:layout_marginStart="4dp"/>
+    <TextView
+        android:id="@+id/textViewIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/multiline_height"
+        android:background="@drawable/rounded_text_box"
+        android:layout_margin="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/instructions_label"
+        android:textSize="@dimen/label_text_size"
+        android:layout_marginStart="4dp"/>
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/multiline_height"
+        android:background="@drawable/rounded_text_box"
+        android:layout_margin="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/notes_label"
+        android:textSize="@dimen/label_text_size"
+        android:layout_marginStart="4dp"/>
+    <TextView
+        android:id="@+id/textViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/multiline_height"
+        android:background="@drawable/rounded_text_box"
+        android:layout_margin="6dp"/>
+
+</LinearLayout>

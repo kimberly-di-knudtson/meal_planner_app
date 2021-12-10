@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_size">50dp</dimen>
+    <dimen name="header_text_size">24sp</dimen>
+    <dimen name="divider_size">5dp</dimen>
+    <dimen name="divider_margin">2dp</dimen>
+    <dimen name="add_button_text_size">20sp</dimen>
+    <dimen name = "label_text_size">20sp</dimen>
+    <dimen name = "typical_text_size">18sp</dimen>
+    <dimen name = "list_margin_start">20dp</dimen>
+    <dimen name="multiline_height">60dp</dimen>
+    <dimen name="textbox_border">2dp</dimen>
+
+</resources>

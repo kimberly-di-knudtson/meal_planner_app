@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Meal Plan App</string>
+    <string name="title_activity_main">Meal Plan</string>
+    <string name="title_dialog_select_Date">Select Meal Plan Start Date</string>
+    <string name="select_start_date">Select Meal Plan Start Date</string>
+    <string name="empty_date">DayOfWeek, ## Month Year</string>
+    <string name="add_meal_to_plan_day">Add Meal to Plan Day</string>
+    <string name="save_plan_day">Save Plan Day Changes</string>
+    <string name="discard_plan_day_changes">Discard Plan Day Changes</string>
+    <string name="add_recipe_to_meal">Add Recipe to Meal</string>
+    <string name="save_meal">Save Meal and return to Plan Day</string>
+    <string name="dismiss_meal">Discard Changes and return to Plan Day</string>
+    <string name="enter_meal_title">Enter Meal Title (Optional)</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_color_code">Select Color Code</string>
+    <string name="recipes_label">Recipes:</string>
+    <string name="meals_planned">Meals Planned:</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="ingredients_label">Ingredients:</string>
+    <string name="keywords_label">Search Keywords:</string>
+    <string name="enter_recipe_title">Enter Recipe Title</string>
+    <string name="meal_list_item">Category: Title in ColorCode</string>
+    <string name="recipe_list_item">RecipeTitle</string>
+    <string name="color_code_label">ColorCode:</string>
+    <string name="category_label">Category:</string>
+    <string name="select_meal_plan_start_date">Select Meal Plan Start Date</string>
+    <string name="dismiss_plan_day">Dismiss Plan Day</string>
+    <string name="configure_recipe">Configure Recipe</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="dismiss_recipe">Dismiss Recipe</string>
+    <string name="open_recipe_box">Open Recipe Box</string>
+    <string name="cooking_method_label">Cooking Method:</string>
+    <string name="select_cooking_method">Select Cooking Method</string>
+    <string name="preptime_label">Prep Time:</string>
+    <string name="cooktime_label">Cook Time:</string>
+    <string name="hours">HH</string>
+    <string name="minutes">mm</string>
+    <string name="weekly_meal_plan">Weekly Meal Plan</string>
+    <string name="instructions_label">Instructions:</string>
+    <string name="notes_label">Notes:</string>
+    <string name="add_ingredient">Add ingredient to Recipe</string>
+    <string name="add_keywords">Click here to add keywords</string>
+    <string name="category">Category</string>
+    <string name="configure_meal">Configure Meal</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_Meal">Delete Meal</string>
+    <string name="my_recipe_box">My Recipe Box</string>
+    <string name="add_new_recipe">Add New Recipe to Recipe Box</string>
+    <string name="done_with_recipe_box">Done with Recipe Box</string>
+    <string name="delete_recipe">Delete Recipe</string>
+
+    <string-array name="categories_array">
+        <item>BREAKFAST</item>
+        <item>LUNCH</item>
+        <item>BRUNCH</item>
+        <item>SNACK</item>
+        <item>DINNER</item>
+        <item>DESSERT</item>
+    </string-array>
+    <string-array name="colors_array">
+        <item>RED</item>
+        <item>ORANGE</item>
+        <item>YELLOW</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>INDIGO</item>
+        <item>VIOLET</item>
+    </string-array>
+</resources>

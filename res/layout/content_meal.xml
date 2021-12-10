@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_label"
+            android:textSize="@dimen/label_text_size"/>
+        <TextView
+            android:id="@+id/categorySelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/typical_text_size"
+            android:hint="@string/select_category"
+            android:background="@drawable/rounded_selection_box"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color_code_label"
+            android:textSize="@dimen/label_text_size"/>
+        <TextView
+            android:id="@+id/colorSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/typical_text_size"
+            android:hint="@string/select_color_code"
+            android:background="@drawable/rounded_selection_box"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/editTextMealTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_meal_title"
+        android:autofillHints="meal title"
+        android:textSize="@dimen/typical_text_size"
+        android:inputType="text"
+        android:layout_marginStart="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipes_label"
+        android:textSize="@dimen/label_text_size"
+        android:padding="4dp"
+        android:layout_marginStart="4dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recipeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginStart="@dimen/list_margin_start"/>
+</LinearLayout>

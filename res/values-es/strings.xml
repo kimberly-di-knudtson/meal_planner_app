@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plan de Comidas App</string>
+    <string name="title_activity_main">Plan de Comidas</string>
+    <string name="title_dialog_select_Date">Seleccionar la Fecha de Inicio del Plan de Comidas</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_size"
+        android:background="@color/colorPrimary"
+        android:text="@string/select_meal_plan_start_date"
+        android:gravity="center"
+        android:textSize="@dimen/header_text_size"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_size"
+        android:background="@color/colorAccentSecondary" />
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryLight"
+        android:minDate="01/01/2020"
+        android:maxDate="12/31/2039" />
+
+    <TextView
+        android:id="@+id/selectedDateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_date"
+        android:background="@color/colorAccentSecondary"
+        android:textSize="@dimen/header_text_size"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/done_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_baseline_done_24"
+        android:backgroundTint="@color/colorAccent"
+        android:contentDescription="@string/select_start_date"/>
+
+</LinearLayout>
